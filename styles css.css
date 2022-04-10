@@ -1,0 +1,70 @@
+
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+button {
+    padding: 10px 5px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background: #4c9146;
+}
+
+.gameBoard  {
+    margin: 20px auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    max-width: 400px;
+    background-color: rgb(14, 93, 31);
+    border: 5px solid #022d1f;
+    color: white;
+    box-shadow: 5px 5px 5px #022d1f;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 6px groove #022d1f;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5d9c9e650808d94abc1ffcf3/1573819176999-NK3E45HQHOPRWH8068K9/lowly-knot.+3png?format=500w);
+    background-size: cover;
+    box-shadow: rgba(226, 241, 190, 0.574) 0 0 0 10000px inset;
+}
+
+.square {
+    width: 30px;
+    height: 30px;    
+}
+
+.worm {
+    background-color: #4ba7e8;
+}
+
+.hat {
+    background-color: #4c9146;
+}
+
+.face {
+    background-color: #ce6b4e
+}
+
+.apple {
+    background-color: green;
+}
